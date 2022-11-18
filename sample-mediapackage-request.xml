@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpix:CPIX id="ContentID" xmlns:cpix="urn:dashif:org:cpix" xmlns:pskc="urn:ietf:params:xml:ns:keyprov:pskc" xmlns:speke="urn:aws:amazon:com:speke" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:enc="http://www.w3.org/2001/04/xmlenc#">
+  <cpix:ContentKeyList>
+    <cpix:ContentKey kid="3d58e298-0640-40b1-a394-c778d9ad8b39"></cpix:ContentKey>
+  </cpix:ContentKeyList>
+  <cpix:DRMSystemList>
+    <cpix:DRMSystem kid="3d58e298-0640-40b1-a394-c778d9ad8b39" systemId="81376844-f976-481e-a84e-cc25d39b0b33">
+    <cpix:PSSH />
+    <cpix:ContentProtectionData />
+    <cpix:URIExtXKey />
+    <speke:KeyFormat />
+    <speke:KeyFormatVersions />
+    <speke:ProtectionHeader />
+  </cpix:DRMSystem>
+</cpix:DRMSystemList></cpix:CPIX>
